@@ -1,6 +1,7 @@
 // can do a binary search of an ordered array, much faster than linear search
 #include <stdio.h>
 
+// O(log N)
 int binary_search(int *array, int val, int len) {
   int lower = 0;
   int upper = len - 1;

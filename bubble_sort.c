@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// O(N^2)
 void bubble_sort(int *a, int len) {
   int sorted = 0; // false
   int last_ind = len; // mark last index of array
